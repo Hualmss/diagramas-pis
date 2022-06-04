@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-04T20:30:17.959Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="bCbIGc1J5cMGC8Fx-7GO" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-04T20:30:44.859Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="1_-7GNueu4_zLfiOL8aC" version="19.0.0" type="github">
   <diagram id="rc7JTz_sRh7tGSv_y6ly" name="Page-1">
     <mxGraphModel dx="723" dy="378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,7 +32,7 @@
         <mxCell id="3d9LdOU5SoOI7ffrQBRm-6" value="Restablecer contraseña de usuarios" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="400" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3d9LdOU5SoOI7ffrQBRm-8" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 17px;&quot;&gt;Caso de Uso para el modulo de usuarios&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3d9LdOU5SoOI7ffrQBRm-8" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 17px;&quot;&gt;Caso de Uso para el modulo de usuarios&amp;nbsp;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="190" width="290" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3d9LdOU5SoOI7ffrQBRm-9" value="Asignación de roles" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
