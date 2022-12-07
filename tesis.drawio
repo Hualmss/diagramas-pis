@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-12-07T02:25:25.519Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="H4MBU7j47NrWHgnkVlmj" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-07T02:34:37.353Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="a529id37EOv3dJLl09xq" type="github">
   <diagram id="PkX0n2hHhriyE0iEJCN8" name="Página-1">
-    <mxGraphModel dx="1767" dy="960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1023" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="YIxzeGBdhdy5ok2xbN9M-1" value="UI APP" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="24" y="110" width="356" height="370" as="geometry" />
+          <mxGeometry x="130" y="110" width="296" height="250" as="geometry" />
         </mxCell>
         <mxCell id="YIxzeGBdhdy5ok2xbN9M-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YIxzeGBdhdy5ok2xbN9M-1" source="YIxzeGBdhdy5ok2xbN9M-21" target="YIxzeGBdhdy5ok2xbN9M-22">
           <mxGeometry relative="1" as="geometry" />
@@ -14,13 +14,18 @@
           <mxGeometry x="36" y="60" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="YIxzeGBdhdy5ok2xbN9M-22" value="Controlador" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="YIxzeGBdhdy5ok2xbN9M-1">
-          <mxGeometry x="206" y="60" width="100" height="100" as="geometry" />
+          <mxGeometry x="166" y="60" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="YIxzeGBdhdy5ok2xbN9M-2" value="ClimateGan" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="110" width="820" height="370" as="geometry" />
+          <mxGeometry x="450" y="110" width="650" height="370" as="geometry" />
         </mxCell>
         <mxCell id="YIxzeGBdhdy5ok2xbN9M-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YIxzeGBdhdy5ok2xbN9M-2" source="YIxzeGBdhdy5ok2xbN9M-3" target="YIxzeGBdhdy5ok2xbN9M-4">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="100" />
+              <mxPoint x="230" y="200" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="YIxzeGBdhdy5ok2xbN9M-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="YIxzeGBdhdy5ok2xbN9M-2" source="YIxzeGBdhdy5ok2xbN9M-3" target="YIxzeGBdhdy5ok2xbN9M-6">
           <mxGeometry relative="1" as="geometry">
@@ -35,41 +40,40 @@
         <mxCell id="YIxzeGBdhdy5ok2xbN9M-3" value="Codificador compartido" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="YIxzeGBdhdy5ok2xbN9M-2">
           <mxGeometry x="140" y="60" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YIxzeGBdhdy5ok2xbN9M-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YIxzeGBdhdy5ok2xbN9M-2" source="YIxzeGBdhdy5ok2xbN9M-4" target="YIxzeGBdhdy5ok2xbN9M-6">
+        <mxCell id="YIxzeGBdhdy5ok2xbN9M-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="YIxzeGBdhdy5ok2xbN9M-2" source="YIxzeGBdhdy5ok2xbN9M-4" target="YIxzeGBdhdy5ok2xbN9M-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YIxzeGBdhdy5ok2xbN9M-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="YIxzeGBdhdy5ok2xbN9M-2" source="YIxzeGBdhdy5ok2xbN9M-4" target="YIxzeGBdhdy5ok2xbN9M-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YIxzeGBdhdy5ok2xbN9M-4" value="mapa predictor de profundidad" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="YIxzeGBdhdy5ok2xbN9M-2">
-          <mxGeometry x="280" y="160" width="80" height="80" as="geometry" />
+          <mxGeometry x="250" y="160" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YIxzeGBdhdy5ok2xbN9M-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YIxzeGBdhdy5ok2xbN9M-2" source="YIxzeGBdhdy5ok2xbN9M-6" target="YIxzeGBdhdy5ok2xbN9M-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="450" y="300" />
+              <mxPoint x="390" y="190" />
+              <mxPoint x="390" y="190" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="YIxzeGBdhdy5ok2xbN9M-6" value="Mapa de segmentación" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="YIxzeGBdhdy5ok2xbN9M-2">
-          <mxGeometry x="377" y="270" width="80" height="80" as="geometry" />
+          <mxGeometry x="350" y="240" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YIxzeGBdhdy5ok2xbN9M-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YIxzeGBdhdy5ok2xbN9M-2" source="YIxzeGBdhdy5ok2xbN9M-10" target="YIxzeGBdhdy5ok2xbN9M-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YIxzeGBdhdy5ok2xbN9M-10" value="Mascará de inundación binaria" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="YIxzeGBdhdy5ok2xbN9M-2">
-          <mxGeometry x="450" y="60" width="80" height="80" as="geometry" />
+          <mxGeometry x="350" y="60" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YIxzeGBdhdy5ok2xbN9M-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YIxzeGBdhdy5ok2xbN9M-2" source="YIxzeGBdhdy5ok2xbN9M-14">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="660" y="100" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="YIxzeGBdhdy5ok2xbN9M-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YIxzeGBdhdy5ok2xbN9M-2" source="YIxzeGBdhdy5ok2xbN9M-14" target="YIxzeGBdhdy5ok2xbN9M-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YIxzeGBdhdy5ok2xbN9M-14" value="Painter" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="YIxzeGBdhdy5ok2xbN9M-2">
-          <mxGeometry x="550" y="60" width="80" height="80" as="geometry" />
+          <mxGeometry x="460" y="60" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YIxzeGBdhdy5ok2xbN9M-18" value="Imagen resultante" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="YIxzeGBdhdy5ok2xbN9M-2">
-          <mxGeometry x="660" y="60" width="80" height="80" as="geometry" />
+          <mxGeometry x="560" y="60" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YIxzeGBdhdy5ok2xbN9M-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YIxzeGBdhdy5ok2xbN9M-2" source="YIxzeGBdhdy5ok2xbN9M-19" target="YIxzeGBdhdy5ok2xbN9M-3">
           <mxGeometry relative="1" as="geometry" />
