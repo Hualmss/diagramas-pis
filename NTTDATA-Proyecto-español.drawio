@@ -1,1 +1,145 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T20:56:05.622Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.8.19" etag="qqaQECswp-DouECuovgv" type="github"><diagram name="Página-1" id="glHHSiO7M0CynM1bzuuB">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-09T20:57:56.011Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="JbII6obQ5F7d-E82KnZW" version="20.8.19" type="github">
+  <diagram name="Página-1" id="glHHSiO7M0CynM1bzuuB">
+    <mxGraphModel dx="2878" dy="1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-10" width="730" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="310" width="1150" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="740" width="780" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-5" value="Empresa" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-573" y="-210" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-6" value="nombre &#xa;RUC" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BkWoFw8C_bLeKGZ3yi10-5">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-7" value="Cuenta_bancaria" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="520" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-8" value="saldo&#xa;id_tipo_cuenta_bancaria&#xa;id_cliente&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BkWoFw8C_bLeKGZ3yi10-7">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-9" value="Tipo_Cuenta_Bancaria" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="610" y="517.5" width="160" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-10" value="nombre&#xa;movimientos&#xa;limite_de_movimientos&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BkWoFw8C_bLeKGZ3yi10-9">
+          <mxGeometry y="30" width="160" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-11" value="Cuenta_titular" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="340" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-12" value="id_cliente&#xa;id_cuenta_bancaria" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BkWoFw8C_bLeKGZ3yi10-11">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-13" value="Cuenta_firmante" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="610" y="340" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-14" value="id_cliente&#xa;id_cuenta_bancaría" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BkWoFw8C_bLeKGZ3yi10-13">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-15" value="Credito_Empresa" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-865" y="340" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-16" value="Saldo&#xa;id_empresa" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BkWoFw8C_bLeKGZ3yi10-15">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-17" value="Credito_persona" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="340" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-18" value="saldo&#xa;id_persona" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BkWoFw8C_bLeKGZ3yi10-17">
+          <mxGeometry y="30" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-19" value="Tarjeta_de_credito_personal" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1310" y="340" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-20" value="saldo&#xa;id_persona" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BkWoFw8C_bLeKGZ3yi10-19">
+          <mxGeometry y="30" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-21" value="Tarjeta_de_credito_empresarial" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1540" y="340" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-22" value="saldo&#xa;id_empresa" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BkWoFw8C_bLeKGZ3yi10-21">
+          <mxGeometry y="30" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-23" value="Fechas_movimiento" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="160" y="520" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-24" value="id_cuenta_ahorro&#xa;dia_movimiento" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BkWoFw8C_bLeKGZ3yi10-23">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-25" value="Cliente" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="380" y="30" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-26" value="Nombre&#xa;id_tipo_cliente&#xa;id_tipo_documento&#xa;Docuento" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BkWoFw8C_bLeKGZ3yi10-25">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-27" value="tipo_cliente" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="580" y="30" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-28" value="descripcion" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BkWoFw8C_bLeKGZ3yi10-27">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-29" value="Tipo_documento" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="190" y="30" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-30" value="descripcion" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BkWoFw8C_bLeKGZ3yi10-29">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-31" value="Creditos" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="160" y="340" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-32" value="saldo&#xa;fecha_de_pago&#xa;tasa_de_interes&#xa;cuotas&#xa;id_cliente&#xa;Tipo_credito" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BkWoFw8C_bLeKGZ3yi10-31">
+          <mxGeometry y="30" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-33" value="tipo_credito" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="340" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-34" value="descripcion" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BkWoFw8C_bLeKGZ3yi10-33">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-35" value="Tarjeta_credito" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="340" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-36" value="Saldo&#xa;Tasa_interes&#xa;Fecha_de_pago&#xa;Tipo_Tcredito&#xa;id_cliente" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BkWoFw8C_bLeKGZ3yi10-35">
+          <mxGeometry y="30" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-37" value="Movimiento" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="840" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-38" value="Id_producto_desc&#xa;id_cliente&#xa;monto&#xa;fecha&#xa;tipo_de_movimiento" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BkWoFw8C_bLeKGZ3yi10-37">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-39" value="Producto_desc" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="840" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-40" value="Descripción" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BkWoFw8C_bLeKGZ3yi10-39">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-41" value="Tipo_de_movimiento" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="160" y="840" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-42" value="Descripcion" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BkWoFw8C_bLeKGZ3yi10-41">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-43" value="Microservicio-Movimientos" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="760" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-44" value="Microservicio-Productos" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="550" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BkWoFw8C_bLeKGZ3yi10-45" value="Microservicio-clientes" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="170" width="240" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
